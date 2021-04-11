@@ -1,0 +1,37 @@
+{
+  "name": "ajdna-vr",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack serve --open --mode=development",
+    "watch": "webpack --watch",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janrozic/ajdna-vr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janrozic/ajdna-vr/issues"
+  },
+  "homepage": "https://github.com/janrozic/ajdna-vr#readme",
+  "dependencies": {
+    "aframe": "^1.2.0",
+    "aframe-extras": "^6.1.1",
+    "aframe-stereo-component": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/aframe": "^1.0.3",
+    "@types/three": "^0.127.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
